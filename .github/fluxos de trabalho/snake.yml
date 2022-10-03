@@ -1,4 +1,4 @@
-nome : Gerar Dados
+nome : roalencastro
 
 em :
   schedule : # executa a cada 12 horas
@@ -11,7 +11,7 @@ empregos :
     run-on : ubuntu-latest
     passos :
       # Animação de cobra
-      - usa : Platane/snk@master
+      - usa : roalencastro/snk@master
         id : cobra-gif
         com :
           github_user_name : roalencastro
